@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>14_Form_15_Botao</title>
+  </head>
+
+  <body>
+    <form action="" method="post" meenctype="multipart/form-data">
+      <h2>Forneça seus dados</h2>
+      <label>
+        Rua:
+        <input type="text" name="Rua" autocomplete="street-address" />
+      </label>
+      <br />
+      <label>
+        Numero:
+        <input type="number" name="numero" autocomplete="address-line2" />
+      </label>
+      <br />
+      <label>
+        E-mail:
+        <input type="email" name="email" autocomplete="email" />
+      </label>
+      <br />
+      <label>
+        Photo:
+        <input type="file" name="arquivo" accept="image/*" />
+      </label>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Enviar Dados</button>
+
+      <br>
+      <br>  
+
+      <button type="button" disabled>TESTE DE BOTAO DESATIVADO</button>
+
+    </form>
+  </body>
+</html>
